@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 315869579
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 13b83418c32e6adbaee320b36d3c9b2f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 29da1aa2d92034aad2d621d20b78a347
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundle/Model/Ji.prefab
+- Assets/AssetBundle/Model/ji_02.controller
+Dependencies:
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/animations/idles.ab
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/animations/movement.ab
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/animations/orc.ab
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/animations/social.ab
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/animators.ab
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/ji.ab
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/ji/cai.ab

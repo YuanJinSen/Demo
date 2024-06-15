@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2707336472
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 22d6b93ee4c54c300280c48c977b8ce0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundle/Background/4.png
+Dependencies: []

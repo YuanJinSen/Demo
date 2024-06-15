@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 4118707465
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4575ab9b6c68079b10407af333b674ed
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 74dd152bea46ecd8a5d5bc0d74b08071
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundle/Model/Meshes/OrcMesh.fbx
+Dependencies:
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/ji/cai.ab

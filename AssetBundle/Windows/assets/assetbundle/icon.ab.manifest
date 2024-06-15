@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1277935003
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d667605440a8b0cce62c687130bd2a4e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundle/Icon/17.png
+- Assets/AssetBundle/Icon/2.png
+- Assets/AssetBundle/Icon/7.png
+- Assets/AssetBundle/Icon/16.png
+- Assets/AssetBundle/Icon/12.png
+- Assets/AssetBundle/Icon/10.png
+- Assets/AssetBundle/Icon/4.png
+- Assets/AssetBundle/Icon/11.png
+- Assets/AssetBundle/Icon/18.png
+- Assets/AssetBundle/Icon/13.png
+- Assets/AssetBundle/Icon/1.png
+- Assets/AssetBundle/Icon/19.png
+- Assets/AssetBundle/Icon/5.png
+- Assets/AssetBundle/Icon/9.png
+- Assets/AssetBundle/Icon/15.png
+- Assets/AssetBundle/Icon/20.png
+- Assets/AssetBundle/Icon/3.png
+- Assets/AssetBundle/Icon/6.png
+- Assets/AssetBundle/Icon/8.png
+- Assets/AssetBundle/Icon/14.png
+Dependencies: []

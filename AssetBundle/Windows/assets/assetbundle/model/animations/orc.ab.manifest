@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2055110208
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9dec438377189dbb543f5dbd1b18205f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c20aa024e7521c0b548c6c21fe86b309
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundle/Model/Animations/Orc/GetHit_Orc_Anim.fbx
+- Assets/AssetBundle/Model/Animations/Orc/Dizzy_Orc_Anim.fbx
+- Assets/AssetBundle/Model/Animations/Orc/RunFWD_Orc_Anim.fbx
+- Assets/AssetBundle/Model/Animations/Orc/IdleNormal_Orc_Anim.fbx
+- Assets/AssetBundle/Model/Animations/Orc/Die_Orc_Anim.fbx
+- Assets/AssetBundle/Model/Animations/Orc/Attack01_Orc_Anim.fbx
+- Assets/AssetBundle/Model/Animations/Orc/IdleBattle_Orc_Anim.fbx
+- Assets/AssetBundle/Model/Animations/Orc/Attack02_Orc_Anim.fbx
+Dependencies:
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/ji/cai.ab
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/meshes.ab

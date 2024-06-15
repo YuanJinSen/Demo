@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 469388143
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d8924b9eca7a799737513005d9c9fa4f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 656e653eb811500ee7eb8e54241b1a36
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundle/Model/ji/ji_02.fbx
+Dependencies:
+- E:/Demo/AssetBundle/Windows/assets/assetbundle/model/ji/cai.ab

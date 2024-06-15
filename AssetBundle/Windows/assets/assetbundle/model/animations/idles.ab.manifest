@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2682788736
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 86294ae0b9870bef28f69b04942ff57a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c72df62a4a696eadd706a4a81a8b71b2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundle/Model/Animations/Idles/BasicMotions@Idle02.fbx
+- Assets/AssetBundle/Model/Animations/Idles/BasicMotions@Idle01.fbx
+Dependencies: []
