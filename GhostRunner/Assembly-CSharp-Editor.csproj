@@ -57,12 +57,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AssetBundleFramework\Editor\BuildItem.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Editor\Builder.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Editor\XmlUtility.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Editor\EBundleType.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Editor\BuildSetting.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Editor\EResourceType.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Editor\BuildItem.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Editor\Builder.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Editor\XmlUtility.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Editor\EBundleType.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Editor\BuildSetting.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Editor\EResourceType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

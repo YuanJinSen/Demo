@@ -57,21 +57,23 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AssetBundleFramework\Core\Resource\IResource.cs" />
-    <Compile Include="Assets\Scenes\TestUI.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Bundle\ABundleAsync.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Resource\Resource.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Resource\AResource.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Bundle\BundleAsync.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Bundle\Bundle.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Resource\ResourceAsync.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Resource\ResourceManager.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Profiler.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Bundle\BundleManager.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Bundle\ABundle.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Resource\AResourceAsync.cs" />
-    <Compile Include="Assets\Scenes\CallBack\Test_CallBack.cs" />
-    <Compile Include="Assets\AssetBundleFramework\Core\Resource\EditorResource.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\IResource.cs" />
+    <Compile Include="Assets\Scenes\AssetBundle\TestUI.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\ABundleAsync.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\Resource.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\AResource.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\BundleAsync.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\Bundle.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\ResourceAsync.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\ResourceManager.cs" />
+    <Compile Include="Assets\Procedural Racing\Script\WorldGenerator.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Profiler.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\BundleManager.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\ABundle.cs" />
+    <Compile Include="Assets\Procedural Racing\Script\Car.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\AResourceAsync.cs" />
+    <Compile Include="Assets\Scenes\AssetBundle\Test_CallBack.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\EditorResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Temp\Resource.txt" />
