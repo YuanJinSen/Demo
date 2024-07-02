@@ -6,6 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+    path: Assets/Odyssey/Scenes/TitleScreen.unity
+    guid: 1825ea3964b5c694ab4c7a241872afc1
+  - enabled: 1
+    path: Assets/Odyssey/Scenes/FileSelect.unity
+    guid: f18c62aaa83d4a44a866b89b4ff5eb46
+  - enabled: 1
+    path: Assets/Odyssey/Scenes/LevelSelect.unity
+    guid: 90a271ae25de7ad4cba8ac059c220932
+  - enabled: 1
+    path: Assets/Odyssey/Scenes/Test1.unity
+    guid: bf2129bbdfceae84fa6501c0101e4898
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: d54d729d741f7e64cbae1f300b33f728,
+      type: 2}

@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_32;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_32;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -57,29 +57,104 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\HurtPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\CheckPoint.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Game\GameData.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerSpinTrail.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Tools\ClassTypeName.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\UI\UISaveList.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\UI\HUD.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\UI\UILevelList.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\BackflipPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\StompPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Game\GameTag.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerStateManager.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Game\GameController.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\IResource.cs" />
     <Compile Include="Assets\Scenes\AssetBundle\TestUI.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\CrawlingPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\CrouchPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Entity\Entity.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\ABundleAsync.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerStats.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Panel.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\Resource.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\DiePlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\LedgeHangingPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Entity\Interface\IEntityContact.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerLevelPuase.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\AResource.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\SpinPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Health.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Tools\Debu.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\AirDivePlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Entity\EntityStateManagerEvents.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Level\LevelStarter.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\FallPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Game\GameLoader.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Game\GameLevel.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Entity\EntityEvents.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Sign.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerEvent.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Rotater.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Level\LevelData.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Glider.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Game\Singleton.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\ItemBox.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Hazard.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Level\LevelPauser.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\BundleAsync.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\Bundle.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\SwimPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Collectable.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\WalkPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Level\LevelRespawner.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Game\Game.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerCamera.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\ResourceAsync.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\IdlePlayerState.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\ResourceManager.cs" />
     <Compile Include="Assets\Procedural Racing\Script\WorldGenerator.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Game\GameSaver.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Level\LevelController.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Profiler.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Pole.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\WallDragPlayerState.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\BundleManager.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Bundle\ABundle.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\LedgeClimbingPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Volume.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Level\LevelScore.cs" />
     <Compile Include="Assets\Procedural Racing\Script\Car.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Entity\EntityStateManager.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Entity\EntityStatsManager.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerInputManager.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\UI\UISaveCard.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\BrakePlayerState.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\AResourceAsync.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Level\LevelFinisher.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\UI\UIAinmator.cs" />
     <Compile Include="Assets\Scenes\AssetBundle\Test_CallBack.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerStatsManager.cs" />
     <Compile Include="Assets\Scripts\AssetBundleFramework\Core\Resource\EditorResource.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Entity\EntityStats.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Level\Level.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\RailGrindPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\PoleClimbingPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Entity\EntityState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\UI\UILevelCard.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Fader.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Misc\Pickable.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\PlayerEvents.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\GlidingPlayerState.cs" />
+    <Compile Include="Assets\Odyssey\Scripts\Player\State\DashPlayerState.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Temp\Resource.txt" />
-    <None Include="Assets\Temp\Dependency.txt" />
+    <None Include="Assets\Odyssey\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\AssetBundle\Model\ji\cai\cai.shader" />
-    <None Include="Assets\Temp\Bundle.txt" />
     <None Include="Assets\AssetBundle\Shader\DoubleSided.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -752,14 +827,14 @@
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -767,8 +842,14 @@
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -779,14 +860,26 @@
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>

@@ -113,11 +113,13 @@ namespace AssetBundleFramework
             switch (PLATFORM)
             {
                 case "iOS":
+#pragma warning disable CS0162 // 检测到无法访问的代码
                     EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.iOS, BuildTarget.iOS);
                     break;
                 case "Android":
                     EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
                     break;
+#pragma warning restore CS0162 // 检测到无法访问的代码
                 case "Windows":
                     EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Standalone, BuildTarget.StandaloneWindows);
                     break;
