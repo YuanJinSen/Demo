@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Splines;
 
 namespace Odyssey
 {
@@ -46,6 +47,8 @@ namespace Odyssey
         public float groundAngle { get; protected set; }
         public Vector3 groundNormal { get; protected set; }
         public Vector3 localSlopeDirection { get; protected set; }
+        public bool onRails { get; protected set; }
+        public SplineContainer rails { get; protected set; }
 
         protected Collider[] _contactBuffer = new Collider[10];
         protected CapsuleCollider _collider;
@@ -95,8 +98,9 @@ namespace Odyssey
 
         protected virtual void Update()
         {
-            if (controller.enabled)
+            if (controller.enabled || _collider != null)
             {
+                HandleSpline();
                 HandleState();
                 HandleController();
                 HandleGround();
@@ -135,7 +139,13 @@ namespace Odyssey
 
         protected virtual void HandleController()
         {
-            controller.Move(velocity * Time.deltaTime);
+            if (controller.enabled)
+            {
+                controller.Move(velocity * Time.deltaTime);
+                return;
+            }
+
+            transform.position += velocity * Time.deltaTime;
         }
 
         protected virtual void UpdateGround(RaycastHit hit)
@@ -250,6 +260,21 @@ namespace Odyssey
 
         protected virtual void HandleSlopeLimit(RaycastHit hit) { }
 
+        protected virtual void HandleSpline()
+        {
+            if (SphereCast(-transform.up, height, out var hit) && hit.collider.CompareTag(GameTag.InteractiveRail))
+            {
+                if (!onRails && verticalVelocity.y < 0)
+                {
+                    EnterRail(hit.collider.GetComponent<SplineContainer>());
+                }
+            }
+            else
+            {
+                ExitRail();
+            }
+        }
+
         #endregion
 
         #region Public
@@ -327,6 +352,26 @@ namespace Odyssey
             }
 
             return false;
+        }
+
+        public virtual void EnterRail(SplineContainer rails)
+        {
+            if (!onRails)
+            {
+                onRails = true;
+                this.rails = rails;
+                entityEvents.onRailsEnter?.Invoke();
+            }
+        }
+
+        public virtual void ExitRail()
+        {
+            if (onRails)
+            {
+                onRails = false;
+                this.rails = null;
+                entityEvents.onRailsExit?.Invoke();
+            }
         }
 
         #endregion

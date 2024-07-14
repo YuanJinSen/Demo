@@ -25,6 +25,7 @@ namespace Odyssey
         public float positionDelta { get; protected set; }
         public float lastDashTime { get; protected set; }
         public bool canStandUp => !SphereCast(Vector3.up, originalHeight, out _);
+        protected Rigidbody _rigidbody;
 
         protected Vector3 _respawnPosition;
         protected Quaternion _respawnRotation;
@@ -60,7 +61,7 @@ namespace Odyssey
                 ResetJumps();
                 ResetAirSpins();
                 ResetAirDash();
-                //StartGrind();
+                StartGrind();
             });
         }
 
@@ -478,6 +479,42 @@ namespace Odyssey
                 lastDashTime = Time.time;
                 stateManager.Change<DashPlayerState>();
             }
+        }
+
+        public void StartGrind()
+        {
+            stateManager.Change<RailGrindPlayerState>();
+        }
+
+        public void UseCustomCollision(bool isUse)
+        {
+            controller.enabled = !isUse;
+            if (isUse)
+            {
+                InitializeCollider();
+                //InitializeRigidbody();
+            }
+            else
+            {
+                Destroy(_collider);
+                //Destroy(_rigidbody);
+            }
+        }
+
+        protected virtual void InitializeCollider()
+        {
+            _collider = gameObject.AddComponent<CapsuleCollider>();
+            _collider.height = controller.height;
+            _collider.radius = controller.radius;
+            _collider.center = controller.center;
+            _collider.isTrigger = true;
+            _collider.enabled = false;
+        }
+
+        protected virtual void InitializeRigidbody()
+        {
+            _rigidbody = gameObject.AddComponent<Rigidbody>();
+            _rigidbody.isKinematic = true;
         }
 
         #endregion
